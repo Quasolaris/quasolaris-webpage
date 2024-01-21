@@ -1,0 +1,155 @@
+* {
+    font-family: helvetica;
+}
+
+header, footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+#head_line {
+    color: white;
+}
+
+body {
+    color: white;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    background-color: black;
+    font-size:1.2vw;
+}
+
+body h1 {
+    color: #3cb371;
+}
+
+body h2 {
+    color: #3cb371;
+}
+
+body h3 {
+    color: #3cb371;
+}
+
+body main {
+    padding: 20px;
+    background: #103a47;
+    border-radius: 25px;
+    font-size: clamp(0.2rem, 1.5vw, 1.5rem);
+    color: white;
+}
+
+.column-profile strong {
+    color: #3cb371;
+}
+
+
+a {
+    color: #d90230;
+}
+
+.column a {
+    color: #d90230;
+    font-size: 120%;
+}
+
+div #projects {
+
+    background: #616161;
+    padding:  5%;
+    border-radius: 5px
+}
+
+#projects {
+    font-size: clamp(0.2rem, 0.9vw, 1.5rem);
+}
+
+#projects a {
+    color: #ff0000;
+}
+
+img {
+  width: clamp(1rem, 15vw, 18rem);
+  height: auto;
+  object-fit: cover;
+}
+
+#post {
+  width: clamp(1rem, 50vw, 180rem);
+  height: auto;
+  object-fit: cover;
+}
+
+#centered-image {
+    text-align: center;
+}
+
+.button {
+    background-color:#6a5acd;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #432fff;/
+    color: white;
+}
+
+ .row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 2%;
+    width:  auto;
+}
+
+.column-profile {
+    flex: 25%;
+    padding: 2%;
+}
+
+.dot-active {
+  height: 1vw;
+  width: 1vw;
+  background-color: #3cb371;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-inactive {
+  height: 1vw;
+  width: 1vw;
+  background-color: #ffa500;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-dead {
+  height: 1vw;
+  width: 1vw;
+  background-color: #ff0000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-finished {
+  height: 1vw;
+  width: 1vw;
+  background-color: #611bb3;
+  border-radius: 50%;
+  display: inline-block;
+}
