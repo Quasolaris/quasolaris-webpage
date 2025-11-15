@@ -2,13 +2,23 @@
     font-family: helvetica;
 }
 
-header, footer {
+header {
+    color: #640592;
     justify-content: center;
     display: flex;
     align-items: center;
     gap: 50px;
     font-weight: bold;
     font-size: 250%;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: bold;
+    font-size: 80%;
 }
 
 
@@ -22,10 +32,8 @@ body {
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 2%;
-    background-color: black;
+    background-color: #252424;
     font-size:1.2vw;
-    background-image: url('images/background.png');
-    background-size: 100% 100%;
 }
 
 body h1 {
@@ -54,12 +62,13 @@ body main {
 }
 
 
-a {
-    color: #d90230;
+a, u {
+    color: #b3acad;
+    text-decoration: none;
 }
 
 .column a {
-    color: #d90230;
+    color: #b3acad;
     font-size: 120%;
 }
 
@@ -91,6 +100,10 @@ img {
 }
 
 #centered-image {
+    text-align: center;
+}
+
+#centered-text {
     text-align: center;
 }
 
@@ -156,4 +169,42 @@ img {
   background-color: #611bb3;
   border-radius: 50%;
   display: inline-block;
+}
+
+
+/* taken from https://getcssscan.com/css-buttons-examples */
+.button-24 {
+  background: #FF4742;
+  border: 2px solid #FF4742;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 20px 25px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
 }
