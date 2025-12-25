@@ -92,10 +92,10 @@ div #projects {
     color: #ff0000;
 }
 
-img {
-  width: clamp(1rem, 15vw, 18rem);
-  height: auto;
-  object-fit: cover;
+#profile {
+    width: 6rem;
+    height: auto;
+    object-fit: cover;
 }
 
 #post {
