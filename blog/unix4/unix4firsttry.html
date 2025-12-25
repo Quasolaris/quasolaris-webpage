@@ -66,16 +66,18 @@ count
             <pre id="code">chdir /usr/sys</pre>
             <p>Then to create a file named run we open ed with the file name as argument</p>
           <pre id="code">ed run</pre>
-          <p>Now type <b>a</b> and hit enter to be in APPEND mode, now you can copy and paste the script line into run.</p>
+          <p>Now type <b>a</b> and hit enter to be in APPEND mode, now you can copy and paste the script lines into run.</p>
                     <pre id="code">rm -f low.o mch.o conf.o lib1 lib2
 chdir ken
 cc -c *.c
 sh mklib
 rm *.o
+
 chdir ../dmr
 cc -c *.c
 sh mklib
 rm *.o
+
 chdir ..
 cc -c conf/conf.c
 mv conf/conf.o conf.o
