@@ -34,14 +34,12 @@
         <p>To install UNIX4 we can follow the steps in the <a href="http://squoze.net/UNIX/v4/README">README</a> on squoze.net about UNIX4. First we need the simulator for historic computers, most distributions have a package for it, I was able to simply install the Arch-Package with pacman:</p>
       <pre id="code">sudo pacman –Sy simh</pre>
       <p>We then need to download the files mentioned on the top of the README:<p>
-                              <pre id="code">
-                    · unix_v4.tap 
-                    · bootstrap 
-                    · disk.rk 
-                    · unix_v4.tar 
-                    · install.ini 
-                    · boot.ini 
-        </pre>
+                              <pre id="code">· unix_v4.tap 
+· bootstrap 
+· disk.rk 
+· unix_v4.tar 
+· install.ini 
+· boot.ini</pre>
         
         <p>We start the simulator with the supported hardware and the installation file as argument:<p>
         <pre id="code">simh-pdp11 install.ini</pre>
