@@ -69,7 +69,6 @@ a, u {
 
 .column a {
     color: #b3acad;
-    font-size: 120%;
 }
 
 div #projects {
@@ -208,3 +207,19 @@ img {
 .button-24:active {
   opacity: .5;
 }
+
+#code {
+    font-family: monospace;
+    font-size: $base-font-size;
+    line-height: 100%;
+    background-color: #221f1e;
+    padding: 1.2em;
+    letter-spacing: -0.05em;
+    word-break: normal;
+    /border-radius: 5px;/
+  }
+  img {
+    width: 500px; 
+    height: auto;
+  }
+
