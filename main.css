@@ -70,7 +70,13 @@ a, u {
 .column a {
     color: #b3acad;
 }
+#terminallink {
+    color: #b3acad;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.5em;
 
+}
 div #projects {
 
     background: #616161;
